@@ -19,7 +19,7 @@ export function HobbySection () {
                     Even if it is something I've listed, there's always something to learn. <em>
                         It's not about where you start, it's where you end up. </em>
                 </div>
-                <img src={`${process.env.PUBLIC_URL}/images/headshot_2.jpg`} width="320" height="240"></img>
+                <img src={`${process.env.PUBLIC_URL}/images/headshot.jpg`} width="320" height="240"></img>
 
                       </div>          
                 </div>
