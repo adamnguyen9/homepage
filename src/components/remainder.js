@@ -4,10 +4,10 @@ import { ContactMeSection } from './contactMe'
 import { EducationSection } from './education'
 import { HobbySection } from './hobbies'
 
-export function Remainder() {
+export function Remainder(props) {
     return (
         <div class="area">
-            <Header />
+            <Header setValentineDayClick={props.setValentineDayClick} />
             <AboutMeSection />
             <ul class="circles">
                 <li></li>

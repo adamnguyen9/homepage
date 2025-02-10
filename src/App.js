@@ -1,18 +1,18 @@
 import './App.css'
 import { Remainder } from './components/remainder'
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import { ForDiana } from './components/forDiana'
+import * as React from 'react'
+
 function App() {
+    const [valentineDayClick, setValentineDayClick] = React.useState(false)
     return (
-        // <div>
-        //     <Remainder />
-        // </div>
-        <BrowserRouter>
-            <Routes>
-                <Route path="/homepage/" element={<Remainder />} />
-                <Route path="/homepage/valentine" element={<ForDiana />} />
-            </Routes>
-        </BrowserRouter>
+        <div>
+            {valentineDayClick ? (
+                <ForDiana />
+            ) : (
+                <Remainder setValentineDayClick={setValentineDayClick} />
+            )}
+        </div>
     )
 }
 
