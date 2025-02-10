@@ -10,7 +10,7 @@ function App() {
         <BrowserRouter>
             <Routes>
                 <Route path="/homepage/" element={<Remainder />} />
-                <Route path="/valentine/" element={<ForDiana />} />
+                <Route path="/homepage/valentine" element={<ForDiana />} />
             </Routes>
         </BrowserRouter>
     )
