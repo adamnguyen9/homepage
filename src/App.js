@@ -6,7 +6,7 @@ function App() {
     return (
         <BrowserRouter>
             <Routes>
-                <Route path="/" element={<Remainder />} />
+                <Route path="/homepage" element={<Remainder />} />
                 <Route path="/valentine" element={<ForDiana />} />
             </Routes>
         </BrowserRouter>
