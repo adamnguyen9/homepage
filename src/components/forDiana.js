@@ -21,7 +21,7 @@ function moveNoButton() {
     noButton.style.top = `${randomY}px`
 }
 
-export function ForDiana() {
+export function ForDiana(props) {
     React.useEffect(() => {
         generateHearts()
         const interval = setInterval(generateHearts, 3000)
@@ -48,7 +48,8 @@ export function ForDiana() {
 
         setTimeout(() => {
             bgImage.style.animation = 'none'
-            alert('I love you, Diana')
+            props.setValentineDayQuizClick(true)
+            props.setValentineDayClick(false)
         }, 4000)
     }
     function startAnimation2() {

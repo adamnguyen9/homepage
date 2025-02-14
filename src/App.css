@@ -325,3 +325,68 @@ Valentine's Day stylings
     background-repeat: no-repeat;
     animation: none; /* Animation is not running initially */
 }
+
+.quiz-container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    /* max-width: 500px; */
+}
+
+h2 {
+    text-align: center;
+    color: #5c6bc0;
+}
+
+.question {
+    margin-bottom: 20px;
+}
+
+.question label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.options {
+    margin-bottom: 20px;
+}
+
+.options input {
+    margin-right: 10px;
+}
+
+.submit-btn {
+    background-color: #5c6bc0;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.back-btn {
+    background-color: darkred;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.submit-btn:hover {
+    background-color: #3949ab;
+}
+
+.score {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    color: #388e3c;
+}
